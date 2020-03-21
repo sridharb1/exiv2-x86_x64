@@ -87,12 +87,12 @@ heirarchy and compile correctly.
   
 # Dependencies #
   * [zlib, tested w/ v1.2.11](https://github.com/madler/zlib.git)
-  * [Strawberry Perl, used v5.30.1.1 x64](strawberryperl.com)[^3]
-  * [NASM, used 2.14.02 x64](https://www.nasm.us/)[^4]
-  * [libexpat, tested w/ v2.2.9](https://github.com/libexpat/libexpat)[^2]
-  * [OpenSSL, tested w/ v1.1.1e-DEV](https://github.com/openssl/openssl)[^6]
-  * [libssh2, tested w/ v1.9.0](https://github.com/libssh2/libssh2.git)[^7]
-  * [curl, tested w/ v7.69.1](https://github.com/curl/curl.git)[^5]
+  * [Strawberry Perl, used v5.30.1.1 x64](strawberryperl.com)[^2]
+  * [NASM, used 2.14.02 x64](https://www.nasm.us/)[^3]
+  * [libexpat, tested w/ v2.2.9](https://github.com/libexpat/libexpat)[^4]
+  * [OpenSSL, tested w/ v1.1.1e-DEV](https://github.com/openssl/openssl)[^5]
+  * [libssh2, tested w/ v1.9.0](https://github.com/libssh2/libssh2.git)[^6]
+  * [curl, tested w/ v7.69.1](https://github.com/curl/curl.git)[^7]
   * [googletest, tested w/ v1.10.x](https://github.com/google/googletest.git)[^8]
   * [libintl (aka gettext), tested with v0.20.1](git://git.savannah.gnu.org/gettext.git)[^9]
   * [libiconv, tested w/ v1.16](https://github.com/sridharb1/libiconv-x86_x64)
@@ -100,21 +100,21 @@ heirarchy and compile correctly.
 
 [^1]: It has since been killed by google. (You can find the last released version here: [Picasa 3.9.141, build 259](https://1drv.ms/u/s!AuE8ZYzPkfMfiEzdlKtVVjN-MReT)
 
-[^2]: Use my [libexpat-x86_x64](https://github.com/sridharb1/libexpat-x86_x64) to
-compile on Windows
-
-[^3]: I installed the binary distribution. perl is only used by the
+[^2]: I installed the binary distribution. perl is only used by the
 openssl makefile to compile. There is no chance of needing to step
 into perl code while debugging exiv2.
 
-[^4]: Binary distribution. See [^3].
+[^3]: Binary distribution. See [^3].
 
-[^5]: Use my [curl-x86_x64](https://github.com/sridharb1/curl-x86_x64.git) to
+[^4]: Use my [libexpat-x86_x64](https://github.com/sridharb1/libexpat-x86_x64) to
 compile on Windows
 
-[^6]: Use my [openssl-x86_x64](https://github.com/sridharb1/openssl-x86_x64) to compile openssl on Windows.
+[^5]: Use my [openssl-x86_x64](https://github.com/sridharb1/openssl-x86_x64) to compile openssl on Windows.
 
-[^7]: Use my [libssh2-x86_x64](https://github.com/sridharb1/libssh2-x86_x64.git) to compile libssh on Windows
+[^6]: Use my [libssh2-x86_x64](https://github.com/sridharb1/libssh2-x86_x64.git) to compile libssh on Windows
+
+[^7]: Use my [curl-x86_x64](https://github.com/sridharb1/curl-x86_x64.git) to
+compile on Windows
 
 [^8]: Use my [googletest-x86_x64](https://github.com/sridharb1/googletest-x86_x64.git) to compile libssh on Windows
 
