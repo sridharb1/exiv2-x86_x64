@@ -84,7 +84,10 @@ heirarchy and compile correctly.
 
 # Sources #
   * [Exiv2, tested w/ v0.27.2](https://github.com/Exiv2/exiv2)
-  
+  * Use my [exiv2-x86_x64](https://github.com/sridharb1/exiv2-x86_x64) to
+compile on Windows
+  * Place the contents of exiv2-x86_x64 in a folder called build in the exiv2 repository and build using the provided solution. Please note that the dependencies listed below are needed.
+
 # Dependencies #
   * [zlib, tested w/ v1.2.11](https://github.com/madler/zlib.git)
   * [Strawberry Perl, used v5.30.1.1 x64](strawberryperl.com)[^2]
