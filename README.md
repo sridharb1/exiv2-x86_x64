@@ -105,8 +105,8 @@ compile on Windows
 [^1]: It has since been killed by google. (You can find the last released version here: [Picasa 3.9.141, build 259](https://1drv.ms/u/s!AuE8ZYzPkfMfiEzdlKtVVjN-MReT))
 
 [^2]: I installed the binary distribution. perl is only used by the
-openssl makefile to compile. There is no chance of needing to step
-into perl code while debugging exiv2.
+openssl makefile to generate the initial configuration. Even this is
+not necessary if the configuration that I chose applies to you.
 
 [^3]: Binary distribution. See [^3].
 
