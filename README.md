@@ -102,7 +102,7 @@ compile on Windows
   * [libssh, tested w/ v0.9.3](https://git.libssh.org/projects/libssh.git/)[^10]
   * [Visual Studio, used Community 2019 edition](https://visualstudio.microsoft.com/)
 
-[^1]: It has since been killed by google. (You can find the last released version here: [Picasa 3.9.141, build 259](https://1drv.ms/u/s!AuE8ZYzPkfMfiEzdlKtVVjN-MReT)
+[^1]: It has since been killed by google. (You can find the last released version here: [Picasa 3.9.141, build 259](https://1drv.ms/u/s!AuE8ZYzPkfMfiEzdlKtVVjN-MReT))
 
 [^2]: I installed the binary distribution. perl is only used by the
 openssl makefile to compile. There is no chance of needing to step
