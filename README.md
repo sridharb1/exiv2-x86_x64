@@ -100,6 +100,7 @@ compile on Windows
   * [libintl (aka gettext), tested with v0.20.1](https://git.savannah.gnu.org/git/gettext.git)[^9]
   * [libiconv, tested w/ v1.16](https://github.com/sridharb1/libiconv-x86_x64)
   * [libssh, tested w/ v0.9.3](https://git.libssh.org/projects/libssh.git/)[^10]
+  * [Visual Studio, used Community 2019 edition](https://visualstudio.microsoft.com/)
 
 [^1]: It has since been killed by google. (You can find the last released version here: [Picasa 3.9.141, build 259](https://1drv.ms/u/s!AuE8ZYzPkfMfiEzdlKtVVjN-MReT)
 
@@ -110,17 +111,17 @@ into perl code while debugging exiv2.
 [^3]: Binary distribution. See [^3].
 
 [^4]: Use my [libexpat-x86_x64](https://github.com/sridharb1/libexpat-x86_x64) to
-compile on Windows
+compile on Windows using Visual Studio
 
-[^5]: Use my [openssl-x86_x64](https://github.com/sridharb1/openssl-x86_x64) to compile openssl on Windows.
+[^5]: Use my [openssl-x86_x64](https://github.com/sridharb1/openssl-x86_x64) to compile on Windows using Visual Studio
 
-[^6]: Use my [libssh2-x86_x64](https://github.com/sridharb1/libssh2-x86_x64.git) to compile libssh on Windows
+[^6]: Use my [libssh2-x86_x64](https://github.com/sridharb1/libssh2-x86_x64.git) to compile on Windows using Visual Studio
 
 [^7]: Use my [curl-x86_x64](https://github.com/sridharb1/curl-x86_x64.git) to
-compile on Windows
+compile on Windows using Visual Studio
 
-[^8]: Use my [googletest-x86_x64](https://github.com/sridharb1/googletest-x86_x64.git) to compile libssh on Windows
+[^8]: Use my [googletest-x86_x64](https://github.com/sridharb1/googletest-x86_x64.git) to compile on Windows using Visual Studio
 
-[^9]: Use my [gettext-x86_x64](https://github.com/sridharb1/gettext-x86_x64) to compile libssh on Windows
+[^9]: Use my [gettext-x86_x64](https://github.com/sridharb1/gettext-x86_x64) to compile on Windows using Visual Studio
 
-[^10]: Use my [libssh-x86_x64](https://github.com/sridharb1/libssh-x86_x64.git) to compile libssh on Windows
+[^10]: Use my [libssh-x86_x64](https://github.com/sridharb1/libssh-x86_x64.git) to compile on Windows using Visual Studio
