@@ -78,7 +78,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>$(ProjectDir)..\;$(ProjectDir)..\..\src;$(ProjectDir)..\..\include\exiv2;E:\Projects\gettext\build\gettext;E:\Projects\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\;$(ProjectDir)..\..\src;$(ProjectDir)..\..\include\exiv2;$(ProjectDir)..\..\..\gettext\build\gettext;$(ProjectDir)..\..\..\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsCpp</CompileAs>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -109,7 +109,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>$(ProjectDir)..\;$(ProjectDir)..\..\src;$(ProjectDir)..\..\include\exiv2;E:\Projects\gettext\build\gettext;E:\Projects\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\;$(ProjectDir)..\..\src;$(ProjectDir)..\..\include\exiv2;$(ProjectDir)..\..\..\gettext\build\gettext;$(ProjectDir)..\..\..\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsCpp</CompileAs>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -140,7 +140,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>$(ProjectDir)..\;$(ProjectDir)..\..\src;$(ProjectDir)..\..\include\exiv2;E:\Projects\gettext\build\gettext;E:\Projects\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\;$(ProjectDir)..\..\src;$(ProjectDir)..\..\include\exiv2;$(ProjectDir)..\..\..\gettext\build\gettext;$(ProjectDir)..\..\..\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
@@ -170,7 +170,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>$(ProjectDir)..\;$(ProjectDir)..\..\src;$(ProjectDir)..\..\include\exiv2;E:\Projects\gettext\build\gettext;E:\Projects\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\;$(ProjectDir)..\..\src;$(ProjectDir)..\..\include\exiv2;$(ProjectDir)..\..\..\gettext\build\gettext;$(ProjectDir)..\..\..\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
@@ -199,55 +199,55 @@
     <Lib />
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="E:\Projects\exiv2\src\canonmn_int.cpp" />
-    <ClInclude Include="E:\Projects\exiv2\src\canonmn_int.hpp" />
-    <ClCompile Include="E:\Projects\exiv2\src\casiomn_int.cpp" />
-    <ClInclude Include="E:\Projects\exiv2\src\casiomn_int.hpp" />
-    <ClCompile Include="E:\Projects\exiv2\src\cr2header_int.cpp" />
-    <ClInclude Include="E:\Projects\exiv2\src\cr2header_int.hpp" />
-    <ClCompile Include="E:\Projects\exiv2\src\crwimage_int.cpp" />
-    <ClInclude Include="E:\Projects\exiv2\src\crwimage_int.hpp" />
-    <ClCompile Include="E:\Projects\exiv2\src\fujimn_int.cpp" />
-    <ClInclude Include="E:\Projects\exiv2\src\fujimn_int.hpp" />
-    <ClCompile Include="E:\Projects\exiv2\src\helper_functions.cpp" />
-    <ClInclude Include="E:\Projects\exiv2\src\helper_functions.hpp" />
-    <ClCompile Include="E:\Projects\exiv2\src\image_int.cpp" />
-    <ClInclude Include="E:\Projects\exiv2\src\image_int.hpp" />
-    <ClCompile Include="E:\Projects\exiv2\src\makernote_int.cpp" />
-    <ClInclude Include="E:\Projects\exiv2\src\makernote_int.hpp" />
-    <ClCompile Include="E:\Projects\exiv2\src\minoltamn_int.cpp" />
-    <ClInclude Include="E:\Projects\exiv2\src\minoltamn_int.hpp" />
-    <ClCompile Include="E:\Projects\exiv2\src\nikonmn_int.cpp" />
-    <ClInclude Include="E:\Projects\exiv2\src\nikonmn_int.hpp" />
-    <ClCompile Include="E:\Projects\exiv2\src\olympusmn_int.cpp" />
-    <ClInclude Include="E:\Projects\exiv2\src\olympusmn_int.hpp" />
-    <ClCompile Include="E:\Projects\exiv2\src\orfimage_int.cpp" />
-    <ClInclude Include="E:\Projects\exiv2\src\orfimage_int.hpp" />
-    <ClCompile Include="E:\Projects\exiv2\src\panasonicmn_int.cpp" />
-    <ClInclude Include="E:\Projects\exiv2\src\panasonicmn_int.hpp" />
-    <ClCompile Include="E:\Projects\exiv2\src\pentaxmn_int.cpp" />
-    <ClInclude Include="E:\Projects\exiv2\src\pentaxmn_int.hpp" />
-    <ClCompile Include="E:\Projects\exiv2\src\rw2image_int.cpp" />
-    <ClInclude Include="E:\Projects\exiv2\src\rw2image_int.hpp" />
-    <ClInclude Include="E:\Projects\exiv2\src\safe_op.hpp" />
-    <ClCompile Include="E:\Projects\exiv2\src\samsungmn_int.cpp" />
-    <ClInclude Include="E:\Projects\exiv2\src\samsungmn_int.hpp" />
-    <ClCompile Include="E:\Projects\exiv2\src\sigmamn_int.cpp" />
-    <ClInclude Include="E:\Projects\exiv2\src\sigmamn_int.hpp" />
-    <ClCompile Include="E:\Projects\exiv2\src\sonymn_int.cpp" />
-    <ClInclude Include="E:\Projects\exiv2\src\sonymn_int.hpp" />
-    <ClCompile Include="E:\Projects\exiv2\src\tags_int.cpp" />
-    <ClInclude Include="E:\Projects\exiv2\src\tags_int.hpp" />
-    <ClCompile Include="E:\Projects\exiv2\src\tiffcomposite_int.cpp" />
-    <ClInclude Include="E:\Projects\exiv2\src\tiffcomposite_int.hpp" />
-    <ClCompile Include="E:\Projects\exiv2\src\tiffimage_int.cpp" />
-    <ClInclude Include="E:\Projects\exiv2\src\tiffimage_int.hpp" />
-    <ClCompile Include="E:\Projects\exiv2\src\tiffvisitor_int.cpp" />
-    <ClInclude Include="E:\Projects\exiv2\src\tiffvisitor_int.hpp" />
-    <ClInclude Include="E:\Projects\exiv2\src\tifffwd_int.hpp" />
-    <ClInclude Include="E:\Projects\exiv2\src\timegm.h" />
-    <ClInclude Include="E:\Projects\exiv2\src\unused.h" />
-    <ClCompile Include="E:\Projects\exiv2\src\pngchunk_int.cpp" />
+    <ClCompile Include="$(ProjectDir)..\..\src\canonmn_int.cpp" />
+    <ClInclude Include="$(ProjectDir)..\..\src\canonmn_int.hpp" />
+    <ClCompile Include="$(ProjectDir)..\..\src\casiomn_int.cpp" />
+    <ClInclude Include="$(ProjectDir)..\..\src\casiomn_int.hpp" />
+    <ClCompile Include="$(ProjectDir)..\..\src\cr2header_int.cpp" />
+    <ClInclude Include="$(ProjectDir)..\..\src\cr2header_int.hpp" />
+    <ClCompile Include="$(ProjectDir)..\..\src\crwimage_int.cpp" />
+    <ClInclude Include="$(ProjectDir)..\..\src\crwimage_int.hpp" />
+    <ClCompile Include="$(ProjectDir)..\..\src\fujimn_int.cpp" />
+    <ClInclude Include="$(ProjectDir)..\..\src\fujimn_int.hpp" />
+    <ClCompile Include="$(ProjectDir)..\..\src\helper_functions.cpp" />
+    <ClInclude Include="$(ProjectDir)..\..\src\helper_functions.hpp" />
+    <ClCompile Include="$(ProjectDir)..\..\src\image_int.cpp" />
+    <ClInclude Include="$(ProjectDir)..\..\src\image_int.hpp" />
+    <ClCompile Include="$(ProjectDir)..\..\src\makernote_int.cpp" />
+    <ClInclude Include="$(ProjectDir)..\..\src\makernote_int.hpp" />
+    <ClCompile Include="$(ProjectDir)..\..\src\minoltamn_int.cpp" />
+    <ClInclude Include="$(ProjectDir)..\..\src\minoltamn_int.hpp" />
+    <ClCompile Include="$(ProjectDir)..\..\src\nikonmn_int.cpp" />
+    <ClInclude Include="$(ProjectDir)..\..\src\nikonmn_int.hpp" />
+    <ClCompile Include="$(ProjectDir)..\..\src\olympusmn_int.cpp" />
+    <ClInclude Include="$(ProjectDir)..\..\src\olympusmn_int.hpp" />
+    <ClCompile Include="$(ProjectDir)..\..\src\orfimage_int.cpp" />
+    <ClInclude Include="$(ProjectDir)..\..\src\orfimage_int.hpp" />
+    <ClCompile Include="$(ProjectDir)..\..\src\panasonicmn_int.cpp" />
+    <ClInclude Include="$(ProjectDir)..\..\src\panasonicmn_int.hpp" />
+    <ClCompile Include="$(ProjectDir)..\..\src\pentaxmn_int.cpp" />
+    <ClInclude Include="$(ProjectDir)..\..\src\pentaxmn_int.hpp" />
+    <ClCompile Include="$(ProjectDir)..\..\src\rw2image_int.cpp" />
+    <ClInclude Include="$(ProjectDir)..\..\src\rw2image_int.hpp" />
+    <ClInclude Include="$(ProjectDir)..\..\src\safe_op.hpp" />
+    <ClCompile Include="$(ProjectDir)..\..\src\samsungmn_int.cpp" />
+    <ClInclude Include="$(ProjectDir)..\..\src\samsungmn_int.hpp" />
+    <ClCompile Include="$(ProjectDir)..\..\src\sigmamn_int.cpp" />
+    <ClInclude Include="$(ProjectDir)..\..\src\sigmamn_int.hpp" />
+    <ClCompile Include="$(ProjectDir)..\..\src\sonymn_int.cpp" />
+    <ClInclude Include="$(ProjectDir)..\..\src\sonymn_int.hpp" />
+    <ClCompile Include="$(ProjectDir)..\..\src\tags_int.cpp" />
+    <ClInclude Include="$(ProjectDir)..\..\src\tags_int.hpp" />
+    <ClCompile Include="$(ProjectDir)..\..\src\tiffcomposite_int.cpp" />
+    <ClInclude Include="$(ProjectDir)..\..\src\tiffcomposite_int.hpp" />
+    <ClCompile Include="$(ProjectDir)..\..\src\tiffimage_int.cpp" />
+    <ClInclude Include="$(ProjectDir)..\..\src\tiffimage_int.hpp" />
+    <ClCompile Include="$(ProjectDir)..\..\src\tiffvisitor_int.cpp" />
+    <ClInclude Include="$(ProjectDir)..\..\src\tiffvisitor_int.hpp" />
+    <ClInclude Include="$(ProjectDir)..\..\src\tifffwd_int.hpp" />
+    <ClInclude Include="$(ProjectDir)..\..\src\timegm.h" />
+    <ClInclude Include="$(ProjectDir)..\..\src\unused.h" />
+    <ClCompile Include="$(ProjectDir)..\..\src\pngchunk_int.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -82,7 +82,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>$(ProjectDir)..\;$(ProjectDir)..\..\src;$(ProjectDir)..\..\include\exiv2;$(ProjectDir)..\..\include;E:\Projects\libssh\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\;$(ProjectDir)..\..\src;$(ProjectDir)..\..\include\exiv2;$(ProjectDir)..\..\include;$(ProjectDir)..\..\..\libssh\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -100,10 +100,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;NOMINMAX;WIN32_LEAN_AND_MEAN;EXV_LOCALEDIR=\"/../share/locale\";CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>$(ProjectDir)..\;$(ProjectDir)..\..\src;$(ProjectDir)..\..\include\exiv2;$(ProjectDir)..\..\include;E:\Projects\libssh\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\;$(ProjectDir)..\..\src;$(ProjectDir)..\..\include\exiv2;$(ProjectDir)..\..\include;$(ProjectDir)..\..\..\libssh\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>$(ProjectDir)..\;$(ProjectDir)..\..\src;$(ProjectDir)..\..\include\exiv2;$(ProjectDir)..\..\include;E:\Projects\libssh\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\;$(ProjectDir)..\..\src;$(ProjectDir)..\..\include\exiv2;$(ProjectDir)..\..\include;$(ProjectDir)..\..\..\libssh\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -121,7 +121,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>$(ProjectDir)..\;$(ProjectDir)..\..\src;$(ProjectDir)..\..\include\exiv2;$(ProjectDir)..\..\include;E:\Projects\libssh\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\;$(ProjectDir)..\..\src;$(ProjectDir)..\..\include\exiv2;$(ProjectDir)..\..\include;$(ProjectDir)..\..\..\libssh\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -139,10 +139,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;NOMINMAX;WIN32_LEAN_AND_MEAN;EXV_LOCALEDIR=\"/../share/locale\";CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>$(ProjectDir)..\;$(ProjectDir)..\..\src;$(ProjectDir)..\..\include\exiv2;$(ProjectDir)..\..\include;E:\Projects\libssh\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\;$(ProjectDir)..\..\src;$(ProjectDir)..\..\include\exiv2;$(ProjectDir)..\..\include;$(ProjectDir)..\..\..\libssh\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>$(ProjectDir)..\;$(ProjectDir)..\..\src;$(ProjectDir)..\..\include\exiv2;$(ProjectDir)..\..\include;E:\Projects\libssh\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\;$(ProjectDir)..\..\src;$(ProjectDir)..\..\include\exiv2;$(ProjectDir)..\..\include;$(ProjectDir)..\..\..\libssh\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -160,7 +160,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>$(ProjectDir)..\;$(ProjectDir)..\..\src;$(ProjectDir)..\..\include\exiv2;$(ProjectDir)..\..\include;E:\Projects\libssh\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\;$(ProjectDir)..\..\src;$(ProjectDir)..\..\include\exiv2;$(ProjectDir)..\..\include;$(ProjectDir)..\..\..\libssh\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -177,10 +177,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NOMINMAX;WIN32_LEAN_AND_MEAN;EXV_LOCALEDIR=\"/../share/locale\";CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>$(ProjectDir)..\;$(ProjectDir)..\..\src;$(ProjectDir)..\..\include\exiv2;$(ProjectDir)..\..\include;E:\Projects\libssh\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\;$(ProjectDir)..\..\src;$(ProjectDir)..\..\include\exiv2;$(ProjectDir)..\..\include;$(ProjectDir)..\..\..\libssh\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>$(ProjectDir)..\;$(ProjectDir)..\..\src;$(ProjectDir)..\..\include\exiv2;$(ProjectDir)..\..\include;E:\Projects\libssh\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\;$(ProjectDir)..\..\src;$(ProjectDir)..\..\include\exiv2;$(ProjectDir)..\..\include;$(ProjectDir)..\..\..\libssh\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -198,7 +198,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>$(ProjectDir)..\;$(ProjectDir)..\..\src;$(ProjectDir)..\..\include\exiv2;$(ProjectDir)..\..\include;E:\Projects\libssh\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\;$(ProjectDir)..\..\src;$(ProjectDir)..\..\include\exiv2;$(ProjectDir)..\..\include;$(ProjectDir)..\..\..\libssh\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -215,10 +215,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NOMINMAX;WIN32_LEAN_AND_MEAN;EXV_LOCALEDIR=\"/../share/locale\";CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>$(ProjectDir)..\;$(ProjectDir)..\..\src;$(ProjectDir)..\..\include\exiv2;$(ProjectDir)..\..\include;E:\Projects\libssh\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\;$(ProjectDir)..\..\src;$(ProjectDir)..\..\include\exiv2;$(ProjectDir)..\..\include;$(ProjectDir)..\..\..\libssh\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>$(ProjectDir)..\;$(ProjectDir)..\..\src;$(ProjectDir)..\..\include\exiv2;$(ProjectDir)..\..\include;E:\Projects\libssh\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\;$(ProjectDir)..\..\src;$(ProjectDir)..\..\include\exiv2;$(ProjectDir)..\..\include;$(ProjectDir)..\..\..\libssh\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -235,7 +235,7 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="E:\Projects\exiv2\samples\write-test.cpp" />
+    <ClCompile Include="$(ProjectDir)..\..\samples\write-test.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\..\curl\projects\Windows\VC15\lib\libcurl.vcxproj">
@@ -265,11 +265,11 @@
     <ProjectReference Include="..\src\exiv2lib_int.vcxproj">
       <Project>{15d4cbe5-4f35-3280-9747-7c4c0fabe386}</Project>
     </ProjectReference>
-    <ProjectReference Include="E:\Projects\exiv2\build\xmpsdk\exiv2-xmp.vcxproj">
+    <ProjectReference Include="$(ProjectDir)..\xmpsdk\exiv2-xmp.vcxproj">
       <Project>{D1483131-BF1B-37C3-B1C8-A6FB8235195B}</Project>
       <Name>exiv2-xmp</Name>
     </ProjectReference>
-    <ProjectReference Include="E:\Projects\exiv2\build\src\exiv2lib.vcxproj">
+    <ProjectReference Include="$(ProjectDir)..\src\exiv2lib.vcxproj">
       <Project>{8F05B0E7-6D03-3F78-A470-0E20BF6C6191}</Project>
       <Name>exiv2lib</Name>
     </ProjectReference>
