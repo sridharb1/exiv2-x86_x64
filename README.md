@@ -257,12 +257,12 @@ heirarchy and compile correctly.
   * [NASM, used 2.14.02 x64](https://www.nasm.us/)[^3]
   * [libexpat, tested w/ v2.2.9](https://github.com/libexpat/libexpat)[^4]
   * [OpenSSL, tested w/ v1.1.1g-DEV](https://github.com/openssl/openssl)[^5]
+  * [libssh, tested w/ v0.9.3](https://git.libssh.org/projects/libssh.git/)[^10]
   * [libssh2, tested w/ v1.9.0](https://github.com/libssh2/libssh2.git)[^6]
   * [curl, tested w/ v7.69.1](https://github.com/curl/curl.git)[^7]
   * [googletest, tested w/ v1.10.x](https://github.com/google/googletest.git)[^8]
   * [libintl (aka gettext), tested with v0.20.1](https://git.savannah.gnu.org/git/gettext.git)[^9]
   * [libiconv, tested w/ v1.16](https://github.com/sridharb1/libiconv-x86_x64)
-  * [libssh, tested w/ v0.9.3](https://git.libssh.org/projects/libssh.git/)[^10]
   * [brotli, tested w/ v1.0.7+](https://github.com/google/brotli)[^11]
   * [Visual Studio, used Community 2019 edition](https://visualstudio.microsoft.com/)
 
