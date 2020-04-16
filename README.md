@@ -68,6 +68,8 @@ of worrying whether the dependency is release/debug compiled and is
 consistent with all the choices that I make for the application (like
 static/runtime CRT or x86/x64 or Release/Debug).
 
+## Directory Structure Needed to compile exiv2 and its dependencies ##
+
 This involves creating one solution and including in it, multiple
 projects (its own as well as those of the dependencies) and linking
 the dependencies through references instead of explicit identification
@@ -82,12 +84,17 @@ expat-static project is added as a reference to the exiv2
 project. This make Visual Studio generate the correct dependency
 heirarchy and compile correctly.
 
+What is important to note is that the relative heirarchy is maintained
+between the folders. For e.g. the exiv2 source tree should be at the
+same level as the zlib source tree and the openssl source tree and so
+on. 
+
 # Sources #
   * [Exiv2, tested w/ v0.27.2](https://github.com/Exiv2/exiv2)
   * In v0.27.3, my solution/project files can be found in contrib/vs2019/solution
   * For other versions, use my [exiv2-x86_x64](https://github.com/sridharb1/exiv2-x86_x64) to compile on Windows
   * Place the contents of exiv2-x86_x64 in a folder called contrib/vs2019/solution in the exiv2 repository and build using the provided solution. Please note that the dependencies listed below are needed.
-  * `exiv2 -vV`
+  * `exiv2 -vV` (output of my exiv2.exe that you can compare to verify)
 
   ``` shell
   exiv2 0.27.2
@@ -262,15 +269,14 @@ heirarchy and compile correctly.
   * [brotli, tested w/ v1.0.7+](https://github.com/google/brotli)[^11]
   * [curl, tested w/ v7.69.1](https://github.com/curl/curl.git)[^7]
   * [googletest, tested w/ v1.10.x](https://github.com/google/googletest.git)[^8]
-  * [libintl (aka gettext), tested with v0.20.1](https://git.savannah.gnu.org/git/gettext.git)[^9]
   * [libiconv, tested w/ v1.16](https://github.com/sridharb1/libiconv-x86_x64)
+  * [libintl (aka gettext), tested with v0.20.1](https://git.savannah.gnu.org/git/gettext.git)[^9]
   * [Visual Studio, used Community 2019 edition](https://visualstudio.microsoft.com/)
 
 [^1]: It has since been killed by google. (You can find the last released version here: [Picasa 3.9.141, build 259](https://1drv.ms/u/s!AuE8ZYzPkfMfiEzdlKtVVjN-MReT))
 
-[^2]: I installed the binary distribution. perl is only used by the
-openssl makefile to generate the initial configuration. Even this is
-not necessary if the configuration that I chose applies to you.
+[^2]: I installed the binary distribution. perl is only used in the
+openssl project to generate some configuration-related headers.
 
 [^3]: Binary distribution. See [^2].
 
