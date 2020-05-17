@@ -253,6 +253,9 @@
     <ProjectReference Include="..\..\..\..\..\gettext\build\gettext\libintl_static.vcxproj">
       <Project>{b8b3b620-fc06-47d0-9d92-bd5cba448d84}</Project>
     </ProjectReference>
+    <ProjectReference Include="..\..\..\..\..\libexpat\build\lib\expat_static.vcxproj">
+      <Project>{58a821bc-e4af-4df4-9a54-2baa22b92615}</Project>
+    </ProjectReference>
     <ProjectReference Include="..\..\..\..\..\libssh2\build\src\libssh2.vcxproj">
       <Project>{127dc9de-814f-312c-8f30-4fe281393b38}</Project>
     </ProjectReference>
